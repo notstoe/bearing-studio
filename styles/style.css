@@ -58,12 +58,36 @@ body {
     height: 30px;
 }
 
-.navigationBar {
+.containerNavBar {
 
     margin-top: 5px;
     width: auto;
     height: 40px;
-    border: 1px solid white;
+    background-color: hsl(223, 7%, 11%);
     color: white;
     text-align: center;
+}
+
+.navigationBar {
+
+    list-style-type: none;
+    padding: auto;
+    margin-left: 20px;
+}
+
+.navBarBlock {
+    float: left;
+    padding: 0px;
+}
+
+.navBarElement {
+    display: block;
+    padding: 10px 25px 15px 25px;
+    background-color: inherit;
+    color: white;
+    text-decoration: none;
+}
+
+.navBarElement:hover {
+    background-color: hsl(223, 7%, 16%);
 }
