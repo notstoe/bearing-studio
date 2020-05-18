@@ -1,4 +1,69 @@
 body {
+ 
     background-color: rgb(47, 49, 54);
 
+}
+
+.containerHeader {
+
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    color: white;
+    
+}
+
+.linkButton {
+    flex-basis: auto;
+    align-self: flex-end;
+    width: 33px;
+    height: 33px;   
+    margin: auto 5px;
+}
+
+.containerButtons {
+    margin-right: 6px;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    
+}
+
+#art {
+    margin-left: 8px;
+    border: solid 1px white;
+    padding: 35px 80px;
+}
+
+.blank {
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+
+#logo {
+    border: solid 1px white;
+    padding: 35px 160px;
+    margin: 0px 280px;
+}
+
+#youtube-button {
+    height: 36px;
+    margin-bottom: -2px;
+}
+
+#discord-button {
+    height: 30px;
+}
+
+.navigationBar {
+
+    margin-top: 5px;
+    width: auto;
+    height: 40px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
 }
